@@ -1,0 +1,22 @@
+{
+  "name": "GraphQL_Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shyam",
+  "license": "MIT",
+  "scripts": {
+    "magic": "nodemon ./demo4/index.js --exec babel-node -e "
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "nodemon": "^1.19.1",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
